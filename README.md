@@ -1,5 +1,6 @@
 # 7amma Fripe  
-a React e-commerce UI beginner project.
+A full stack MERN e-commerce project.  
+I'm using [sou9_api](https://github.com/ayoub3bidi/sou9_api) project for Back-end and the UI in the main branch.  
 
 ## Available Scripts
 
