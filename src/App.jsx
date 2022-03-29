@@ -5,6 +5,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Pay from "./components/Pay";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route path="/cart">
               <Cart />  
+            </Route>
+            <Route path="/pay">
+              <Pay/> 
             </Route>
           </Switch>
         </header>
