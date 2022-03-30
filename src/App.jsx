@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Pay from "./components/Pay";
+import Success from "./components/Success";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <Route path="/pay">
               <Pay/> 
+            </Route>
+            <Route path="/success">
+              <Success/> 
             </Route>
           </Switch>
         </header>
