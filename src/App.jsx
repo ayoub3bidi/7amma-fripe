@@ -7,8 +7,11 @@ import Cart from "./pages/Cart";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Pay from "./components/Pay";
 import Success from "./components/Success";
+import { Redirect } from "react-router-dom";
 
 function App() {
+  const user = true
+
   return (
     <Router>
       <div>
@@ -18,16 +21,18 @@ function App() {
               <Home />  
             </Route>
             <Route path="/login">
+              {user ? <Redirect to="/"/> : <Login/>}
               <Login />  
             </Route>
             <Route path="/register">
+              {user ? <Redirect to="/"/> : <Register/>}
               <Register />  
             </Route>
-            <Route path="/product">
-              <Product />  
-            </Route>
-            <Route path="/productList">
+            <Route path="/products/:category">
               <ProductList />  
+            </Route>
+            <Route path="/product/:id">
+              <Product />  
             </Route>
             <Route path="/cart">
               <Cart />  

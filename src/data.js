@@ -27,16 +27,19 @@ export const categories = [
     id: 1,
     img: "https://64.media.tumblr.com/46fa4b3bc39fa8d19f607c1afa87814b/tumblr_mx1pmhB8KT1r2znpgo1_1280.jpg",
     title: "Tradition Style!",
+    cat: "traditional"
   },
   {
     id: 2,
     img: "https://images.pexels.com/photos/1342609/pexels-photo-1342609.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     title: "Suits LOVE",
+    cat: "men"
   },
   {
     id: 3,
     img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     title: "Light Jackets",
+    cat: "women"
   },
 ];
 
