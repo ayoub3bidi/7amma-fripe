@@ -14,38 +14,27 @@ function App() {
 
   return (
     <Router>
-      <div>
-        <header>
-          <Switch>
-            <Route exact path="/">
-              <Home />  
-            </Route>
-            <Route path="/login">
-              {user ? <Redirect to="/"/> : <Login/>}
-              <Login />  
-            </Route>
-            <Route path="/register">
-              {user ? <Redirect to="/"/> : <Register/>}
-              <Register />  
-            </Route>
-            <Route path="/products/:category">
-              <ProductList />  
-            </Route>
-            <Route path="/product/:id">
-              <Product />  
-            </Route>
-            <Route path="/cart">
-              <Cart />  
-            </Route>
-            <Route path="/pay">
-              <Pay/> 
-            </Route>
-            <Route path="/success">
-              <Success/> 
-            </Route>
-          </Switch>
-        </header>
-      </div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/products/:category">
+          <ProductList />
+        </Route>
+        <Route path="/product/:id">
+          <Product />
+        </Route>
+        <Route path="/cart">
+          <Cart />
+        </Route>
+        <Route path="/success">
+          <Success />
+        </Route>
+        <Route path="/login">{user ? <Redirect to="/" /> : <Login />}</Route>
+        <Route path="/register">
+          {user ? <Redirect to="/" /> : <Register />}
+        </Route>
+      </Switch>
     </Router>
   );
 }
