@@ -5,7 +5,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Pay from "./components/Pay";
+// import Pay from "./components/Pay";
 import Success from "./components/Success";
 import { Redirect } from "react-router-dom";
 
