@@ -1,5 +1,6 @@
 # 7amma Fripe  
-a React e-commerce UI beginner project.
+a React e-commerce UI beginner project.  
+You can find the MERN version in the second branch.  
 
 ## Available Scripts
 
