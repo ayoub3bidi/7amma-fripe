@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://blacklapel.com/thecompass/wp-content/uploads/2017/11/turtleneck-with-suit-ash-gray-suit.jpg",
+      img: "https://i.pinimg.com/originals/57/95/1e/57951e9a8251c732d28dd87a9702025b.png",
       title: "WINTER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "e8e8e8",
