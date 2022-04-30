@@ -1,6 +1,7 @@
 # 7amma Fripe  
 A full stack MERN e-commerce project.  
-I'm using [sou9_api](https://github.com/ayoub3bidi/sou9_api) project for Back-end and the UI in the main branch.  
+I'm using [sou9_api](https://github.com/ayoub3bidi/sou9_api) project for Back-end and the UI of the main branch.  
+Edit: the project is still not complete but I will come back to finish it soon.
 
 ## Available Scripts
 
